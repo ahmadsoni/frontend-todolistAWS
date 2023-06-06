@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+svg.plus .plus_svg__plus{
+  @apply fill-white;
+}
+
+button.bloc:hover svg.plus .plus_svg__plus {
+  @apply fill-primary;
+}
+
+.sort-item{
+    align-items: center;
+    border-bottom-width: 1px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.shadow-top {
+  box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.bg-slate-200:active {
+  background-color: #E5E5E5; 
+}
+
+.bg-danger{
+  background-color: #ED4C5C; 
+}
+.bg-warning{
+  background-color: #F8A541; 
+}
+.bg-success{
+  background-color: #00A790; 
+}
+.bg-dodger{
+  background-color: #428BC1; 
+}
+.bg-purple{
+  background-color: #8942C1;
+}
+
+.grow {
+    flex-grow: 1;
+}
